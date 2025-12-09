@@ -1,0 +1,6 @@
+monitoring:
+  rate-limit:
+    default-rate: 100
+    services:
+      orders: 120
+      users: 50
